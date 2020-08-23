@@ -1,0 +1,14 @@
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.deps.json
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Infra.BD.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\bin\Debug\netcoreapp2.2\DR.Infra.BD.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.csprojAssemblyReference.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.AssemblyInfoInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.AssemblyInfo.cs
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.csproj.CopyComplete
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.pdb

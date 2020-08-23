@@ -370,9 +370,22 @@
           }
         }
       },
+      "DR.Dominio.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/DR.Dominio.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DR.Dominio.Entidades.dll": {}
+        }
+      },
       "DR.Dominio.Repositorios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "DR.Dominio.Entidades": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DR.Dominio.Repositorios.dll": {}
         },
@@ -1233,6 +1246,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DR.Dominio.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../DR.Dominio.Entidades/DR.Dominio.Entidades.csproj",
+      "msbuildProject": "../DR.Dominio.Entidades/DR.Dominio.Entidades.csproj"
     },
     "DR.Dominio.Repositorios/1.0.0": {
       "type": "project",

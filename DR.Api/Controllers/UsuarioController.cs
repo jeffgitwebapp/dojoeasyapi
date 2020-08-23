@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DR.Api.Controllers
 {
-    [Route("api/usuario")]
+    [Route("api/dr/usuario")]
     [ApiController]
     public class UsuarioController : BaseController
     {
