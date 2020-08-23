@@ -1,0 +1,8 @@
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.deps.json
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\obj\Debug\netcoreapp2.2\DR.Dominio.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\obj\Debug\netcoreapp2.2\DR.Dominio.Repositorios.AssemblyInfoInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\obj\Debug\netcoreapp2.2\DR.Dominio.Repositorios.AssemblyInfo.cs
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\obj\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Dominio.Repositorios\obj\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb

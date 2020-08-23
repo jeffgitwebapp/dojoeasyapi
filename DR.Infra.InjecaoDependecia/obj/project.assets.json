@@ -2243,7 +2243,6 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "DR.Dominio.Repositorios": "1.0.0",
-          "DR.Infra.Integracao": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
@@ -2266,26 +2265,12 @@
           "bin/placeholder/DR.Infra.Comum.dll": {}
         }
       },
-      "DR.Infra.Integracao/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "DR.Dominio.Repositorios": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DR.Infra.Integracao.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DR.Infra.Integracao.dll": {}
-        }
-      },
       "DR.Infra.Repositorios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "DR.Dominio.Repositorios": "1.0.0",
-          "DR.Infra.BD": "1.0.0",
-          "DR.Infra.Integracao": "1.0.0"
+          "DR.Infra.BD": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DR.Infra.Repositorios.dll": {}
@@ -7549,11 +7534,6 @@
       "type": "project",
       "path": "../DR.Infra.Comum/DR.Infra.Comum.csproj",
       "msbuildProject": "../DR.Infra.Comum/DR.Infra.Comum.csproj"
-    },
-    "DR.Infra.Integracao/1.0.0": {
-      "type": "project",
-      "path": "../DR.Infra.Integracao/DR.Infra.Integracao.csproj",
-      "msbuildProject": "../DR.Infra.Integracao/DR.Infra.Integracao.csproj"
     },
     "DR.Infra.Repositorios/1.0.0": {
       "type": "project",

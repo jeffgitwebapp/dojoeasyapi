@@ -140,9 +140,6 @@
             "projectReferences": {
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
-              },
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj"
               }
             }
           }
@@ -340,62 +337,6 @@
         }
       }
     },
-    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj",
-        "projectName": "DR.Infra.Integracao",
-        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj",
-        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
     "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -427,9 +368,6 @@
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
-              },
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj"
               }
             }
           }

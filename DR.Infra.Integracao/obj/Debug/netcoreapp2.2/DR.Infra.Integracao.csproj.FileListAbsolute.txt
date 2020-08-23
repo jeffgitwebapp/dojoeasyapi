@@ -1,0 +1,12 @@
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\bin\Debug\netcoreapp2.2\DR.Infra.Integracao.deps.json
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\bin\Debug\netcoreapp2.2\DR.Infra.Integracao.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\bin\Debug\netcoreapp2.2\DR.Infra.Integracao.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.csprojAssemblyReference.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.csproj.CoreCompileInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.AssemblyInfoInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.AssemblyInfo.cs
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.csproj.CopyComplete
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Integracao\obj\Debug\netcoreapp2.2\DR.Infra.Integracao.pdb

@@ -1,10 +1,13 @@
-﻿using DR.Dominio.Repositorios.Contratos.Identificacao;
-using DR.Infra.Integracao.Autorizador;
+﻿using DR.Dominio.Repositorios.Contratos;
+using DR.Dominio.Repositorios.Contratos.Identificacao;
+using DR.Infra.BD.Fabrica.ClienteBD;
+using DR.Infra.Repositorios.Autorizador;
+using DR.Infra.Repositorios.Repositorios.Base;
 using System;
 
 namespace DR.Infra.BD.Repositorios.Identificacao
 {
-    public class RepositorioUsuario : IRepositorioUsuario
+    public class RepositorioUsuario : IRepositorio, IRepositorioUsuario
     {
         private readonly IAutorizador _autorizador;
 

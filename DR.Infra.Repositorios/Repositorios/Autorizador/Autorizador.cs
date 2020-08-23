@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DR.Infra.Integracao.Autorizador
+namespace DR.Infra.Repositorios.Autorizador
 {
-    public class Autorizador: IIntegracao
+    public class Autorizador : IRepositorio, IAutorizador
     {
         public bool UsuarioAutorizado(string login, string senha)
         {

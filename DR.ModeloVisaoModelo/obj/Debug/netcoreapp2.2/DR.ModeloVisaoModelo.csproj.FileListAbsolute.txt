@@ -1,0 +1,8 @@
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.deps.json
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\obj\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.csproj.CoreCompileInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\obj\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.AssemblyInfoInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\obj\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.AssemblyInfo.cs
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\obj\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.ModeloVisaoModelo\obj\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.pdb

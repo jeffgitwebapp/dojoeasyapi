@@ -385,7 +385,6 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "DR.Dominio.Repositorios": "1.0.0",
-          "DR.Infra.Integracao": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
@@ -393,19 +392,6 @@
         },
         "runtime": {
           "bin/placeholder/DR.Infra.BD.dll": {}
-        }
-      },
-      "DR.Infra.Integracao/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "DR.Dominio.Repositorios": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DR.Infra.Integracao.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DR.Infra.Integracao.dll": {}
         }
       }
     }
@@ -1271,18 +1257,12 @@
       "type": "project",
       "path": "../DR.Infra.BD/DR.Infra.BD.csproj",
       "msbuildProject": "../DR.Infra.BD/DR.Infra.BD.csproj"
-    },
-    "DR.Infra.Integracao/1.0.0": {
-      "type": "project",
-      "path": "../DR.Infra.Integracao/DR.Infra.Integracao.csproj",
-      "msbuildProject": "../DR.Infra.Integracao/DR.Infra.Integracao.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "DR.Dominio.Repositorios >= 1.0.0",
       "DR.Infra.BD >= 1.0.0",
-      "DR.Infra.Integracao >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -1321,9 +1301,6 @@
             },
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
-            },
-            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
-              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj"
             }
           }
         }

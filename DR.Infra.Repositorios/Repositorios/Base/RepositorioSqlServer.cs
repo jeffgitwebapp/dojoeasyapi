@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DR.Infra.Repositorios.Repositorios.Base
 {
-    public class RepositorioSqlServer<TEntidade> : RepositorioBD, IRepositorio<TEntidade> where TEntidade : class
+    public class RepositorioSqlServer : RepositorioBD
     {
         private string _stringConexao { get; set; }
 

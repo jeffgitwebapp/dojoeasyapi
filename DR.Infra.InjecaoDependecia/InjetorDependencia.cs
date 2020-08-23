@@ -3,6 +3,7 @@ using DR.Infra.BD.Fabrica.ClienteBD;
 using DR.Infra.BD.Repositorios.Identificacao;
 using DR.Infra.Comum.JWTConfig;
 using DR.Infra.InjecaoDependecia.IOCExtesions;
+using DR.Infra.Repositorios.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;

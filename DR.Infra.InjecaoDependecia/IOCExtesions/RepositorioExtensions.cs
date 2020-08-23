@@ -5,12 +5,12 @@ namespace DR.Infra.InjecaoDependecia.IOCExtesions
 {
     internal static class RepositorioExtensions
     {
-        public static void AddRepositorio<TRepositorioAssembly>(this IServiceCollection services) where TRepositorioAssembly : class, IRepositorio<object>
+        public static void AddRepositorio<TRepositorioAssembly>(this IServiceCollection services) where TRepositorioAssembly : class, IRepositorio
         {
             services.Scan(config =>
             {
                 config.FromAssemblyOf<TRepositorioAssembly>()
-                .AddClasses(classes => classes.AssignableTo<IRepositorio<object>>())
+                .AddClasses(classes => classes.AssignableTo<IRepositorio>())
                 .AsImplementedInterfaces()
                 .WithSingletonLifetime();
             });
