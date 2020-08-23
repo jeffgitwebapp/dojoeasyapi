@@ -2,6 +2,7 @@
 {
     public class Endereco
     {
+        public string Cep { get; private set; }
         public string Rua { get; private set; }
         public string Numero { get; private set; }
         public string Bairro { get; private set; }

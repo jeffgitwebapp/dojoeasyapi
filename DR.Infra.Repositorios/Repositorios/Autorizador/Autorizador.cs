@@ -1,11 +1,12 @@
 ﻿using DR.Dominio.Repositorios.Contratos;
+using DR.Dominio.Repositorios.Contratos.Autorizador;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DR.Infra.Repositorios.Autorizador
 {
-    public class Autorizador : IRepositorio, IAutorizador
+    public class Autorizador : IAutorizador
     {
         public bool UsuarioAutorizado(string login, string senha)
         {

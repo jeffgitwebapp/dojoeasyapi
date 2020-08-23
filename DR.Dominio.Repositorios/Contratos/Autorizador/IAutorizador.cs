@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DR.Infra.Repositorios.Autorizador
+namespace DR.Dominio.Repositorios.Contratos.Autorizador
 {
     public interface IAutorizador : IRepositorio
     {
