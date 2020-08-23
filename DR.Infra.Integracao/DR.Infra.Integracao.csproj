@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Autorizador\Contrato\**" />
+    <EmbeddedResource Remove="Autorizador\Contrato\**" />
+    <None Remove="Autorizador\Contrato\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DR.Dominio.Repositorios\DR.Dominio.Repositorios.csproj" />
+  </ItemGroup>
+
+</Project>

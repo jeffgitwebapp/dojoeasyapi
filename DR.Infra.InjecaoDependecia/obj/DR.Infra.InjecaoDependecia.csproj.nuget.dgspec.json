@@ -1,0 +1,462 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj",
+        "projectName": "DR.Dominio.Repositorios",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj",
+        "projectName": "DR.Dominio.ServicosAplicacao",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj",
+        "projectName": "DR.Infra.BD",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj",
+        "projectName": "DR.Infra.Comum",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj",
+        "projectName": "DR.Infra.InjecaoDependecia",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization.Policy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.CookiePolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj",
+        "projectName": "DR.Infra.Integracao",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj",
+        "projectName": "DR.Infra.Repositorios",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Repositorios\\DR.Dominio.Repositorios.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Integracao\\DR.Infra.Integracao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
