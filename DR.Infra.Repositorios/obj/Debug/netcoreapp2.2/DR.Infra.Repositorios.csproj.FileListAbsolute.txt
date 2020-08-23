@@ -1,1 +1,0 @@
-C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Repositorios\obj\Debug\netcoreapp2.2\DR.Infra.Repositorios.AssemblyInfoInputs.cache
