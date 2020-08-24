@@ -26,6 +26,7 @@ namespace DR.Infra.InjecaoDependecia
         {
             service.AddRepositorio<RepositorioUsuario>();
             service.AddServicosAplicacao<ServicoAplicacaoUsuario>();
+            service.AddClienteBD<ClienteBDSqlServer>();
         }
 
         public static void ConfigurarComponentesSeguranca(IServiceCollection service, IConfiguration configuration)

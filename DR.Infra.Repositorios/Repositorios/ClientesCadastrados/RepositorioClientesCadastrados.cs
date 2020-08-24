@@ -44,7 +44,7 @@ namespace DR.Infra.Repositorios.Repositorios.ClientesCadastrados
                             return cliente;
                         },
                         null,
-                        splitOn: "Id");
+                        splitOn: "Id, Estado, Cidade");
 
                 return result;
             }
