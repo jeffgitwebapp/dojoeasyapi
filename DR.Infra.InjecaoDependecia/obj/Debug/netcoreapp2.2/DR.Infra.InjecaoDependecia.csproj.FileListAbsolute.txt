@@ -7,10 +7,12 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\n
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.BD.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Comum.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.ServicosAplicacao.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.BD.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Comum.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\obj\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.csprojAssemblyReference.cache

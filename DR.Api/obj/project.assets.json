@@ -4710,15 +4710,16 @@
           "bin/placeholder/DR.Infra.Comum.dll": {}
         }
       },
-      "DR.Infra.InjecaoDependecia/1.0.0": {
+      "DR.Infra.InjecaoDependencia/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "AutoMapper": "8.0.0",
+          "AutoMapper": "10.0.0",
           "DR.Dominio.ServicosAplicacao": "1.0.0",
           "DR.Infra.BD": "1.0.0",
           "DR.Infra.Comum": "1.0.0",
           "DR.Infra.Repositorios": "1.0.0",
+          "DR.ModeloVisaoModelo": "1.0.0",
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
           "Microsoft.AspNetCore.Authorization.Policy": "2.2.0",
@@ -4732,10 +4733,10 @@
           "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "compile": {
-          "bin/placeholder/DR.Infra.InjecaoDependecia.dll": {}
+          "bin/placeholder/DR.Infra.InjecaoDependencia.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DR.Infra.InjecaoDependecia.dll": {}
+          "bin/placeholder/DR.Infra.InjecaoDependencia.dll": {}
         }
       },
       "DR.Infra.Repositorios/1.0.0": {
@@ -4758,7 +4759,8 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "AutoMapper": "10.0.0",
-          "DR.Dominio.Entidades": "1.0.0"
+          "DR.Dominio.Entidades": "1.0.0",
+          "DR.Dominio.ServicosAplicacao": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DR.ModeloVisaoModelo.dll": {}
@@ -12915,10 +12917,10 @@
       "path": "../DR.Infra.Comum/DR.Infra.Comum.csproj",
       "msbuildProject": "../DR.Infra.Comum/DR.Infra.Comum.csproj"
     },
-    "DR.Infra.InjecaoDependecia/1.0.0": {
+    "DR.Infra.InjecaoDependencia/1.0.0": {
       "type": "project",
-      "path": "../DR.Infra.InjecaoDependecia/DR.Infra.InjecaoDependecia.csproj",
-      "msbuildProject": "../DR.Infra.InjecaoDependecia/DR.Infra.InjecaoDependecia.csproj"
+      "path": "../DR.Infra.InjecaoDependecia/DR.Infra.InjecaoDependencia.csproj",
+      "msbuildProject": "../DR.Infra.InjecaoDependecia/DR.Infra.InjecaoDependencia.csproj"
     },
     "DR.Infra.Repositorios/1.0.0": {
       "type": "project",
@@ -12935,7 +12937,7 @@
     ".NETCoreApp,Version=v2.2": [
       "DR.Dominio.ServicosAplicacao >= 1.0.0",
       "DR.Infra.Comum >= 1.0.0",
-      "DR.Infra.InjecaoDependecia >= 1.0.0",
+      "DR.Infra.InjecaoDependencia >= 1.0.0",
       "DR.ModeloVisaoModelo >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
@@ -12982,8 +12984,8 @@
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
             },
-            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj": {
-              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj"
+            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj": {
+              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj"
             },
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj"

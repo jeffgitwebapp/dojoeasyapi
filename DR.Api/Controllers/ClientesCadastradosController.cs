@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DR.Api.Controllers.BaseContoller;
 using DR.Dominio.ServicosAplicacao.Contratos.ClientesCadastrados;
+using DR.ModeloVisaoModelo;
 using DR.ModeloVisaoModelo.ClientesCadastrados;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -15,11 +16,11 @@ namespace DR.Api.Controllers
     [ApiController]
     public class ClientesCadastradosController : BaseController
     {
-        private readonly IServicoAplicacaoClientesCadastrados _servicoAplicacaoClientesCadastrados;
+        IMapClientesCadastrados _mapVisaoModelo;
 
-        public ClientesCadastradosController(IServicoAplicacaoClientesCadastrados servicoAplicacaoClientesCadastrados)
+        public ClientesCadastradosController(IMapClientesCadastrados visaoModelo)
         {
-            _servicoAplicacaoClientesCadastrados = servicoAplicacaoClientesCadastrados;
+            _mapVisaoModelo = visaoModelo;
         }
 
 
@@ -30,9 +31,7 @@ namespace DR.Api.Controllers
         {
             try
             {
-                var clientesModelo = _servicoAplicacaoClientesCadastrados.Obter();
-
-                var clientesVisao = ModeloClientesCadastrados.ModeloParaVisao(clientesModelo);
+                var clientesVisao = _mapVisaoModelo.Resultado();
 
                 return Ok(clientesVisao);
             }

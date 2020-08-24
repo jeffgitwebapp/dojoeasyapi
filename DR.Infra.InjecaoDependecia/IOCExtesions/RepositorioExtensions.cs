@@ -1,7 +1,7 @@
 ﻿using DR.Dominio.Repositorios.Contratos;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DR.Infra.InjecaoDependecia.IOCExtesions
+namespace DR.Infra.InjecaoDependencia.IOCExtesions
 {
     internal static class RepositorioExtensions
     {

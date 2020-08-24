@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DR.Infra.InjecaoDependecia.IOCExtesions
+namespace DR.Infra.InjecaoDependencia.IOCExtesions
 {
     internal static  class ServicosAplicacaoExtensions
     {

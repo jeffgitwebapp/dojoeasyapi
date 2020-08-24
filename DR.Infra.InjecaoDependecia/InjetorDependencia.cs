@@ -2,8 +2,8 @@
 using DR.Infra.BD.Fabrica.ClienteBD;
 using DR.Infra.BD.Repositorios.Identificacao;
 using DR.Infra.Comum.JWTConfig;
-using DR.Infra.InjecaoDependecia.IOCExtesions;
-using DR.Infra.Repositorios.Repositorios;
+using DR.Infra.InjecaoDependencia.IOCExtesions;
+using DR.ModeloVisaoModelo.ClientesCadastrados;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
 
-namespace DR.Infra.InjecaoDependecia
+namespace DR.Infra.InjecaoDependencia
 {
     public static class InjetorDependencia
     {
@@ -27,6 +27,7 @@ namespace DR.Infra.InjecaoDependecia
             service.AddRepositorio<RepositorioUsuario>();
             service.AddServicosAplicacao<ServicoAplicacaoUsuario>();
             service.AddClienteBD<ClienteBDSqlServer>();
+            service.AddVisaoModelo<MapClientesCadastrados>();
         }
 
         public static void ConfigurarComponentesSeguranca(IServiceCollection service, IConfiguration configuration)

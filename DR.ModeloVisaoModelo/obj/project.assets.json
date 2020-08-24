@@ -248,6 +248,32 @@
         "runtime": {
           "bin/placeholder/DR.Dominio.Entidades.dll": {}
         }
+      },
+      "DR.Dominio.Repositorios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "DR.Dominio.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DR.Dominio.Repositorios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DR.Dominio.Repositorios.dll": {}
+        }
+      },
+      "DR.Dominio.ServicosAplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "DR.Dominio.Repositorios": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DR.Dominio.ServicosAplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DR.Dominio.ServicosAplicacao.dll": {}
+        }
       }
     }
   },
@@ -863,12 +889,23 @@
       "type": "project",
       "path": "../DR.Dominio.Entidades/DR.Dominio.Entidades.csproj",
       "msbuildProject": "../DR.Dominio.Entidades/DR.Dominio.Entidades.csproj"
+    },
+    "DR.Dominio.Repositorios/1.0.0": {
+      "type": "project",
+      "path": "../DR.Dominio.Repositorios/DR.Dominio.Repositorios.csproj",
+      "msbuildProject": "../DR.Dominio.Repositorios/DR.Dominio.Repositorios.csproj"
+    },
+    "DR.Dominio.ServicosAplicacao/1.0.0": {
+      "type": "project",
+      "path": "../DR.Dominio.ServicosAplicacao/DR.Dominio.ServicosAplicacao.csproj",
+      "msbuildProject": "../DR.Dominio.ServicosAplicacao/DR.Dominio.ServicosAplicacao.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper >= 10.0.0",
       "DR.Dominio.Entidades >= 1.0.0",
+      "DR.Dominio.ServicosAplicacao >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -904,6 +941,9 @@
           "projectReferences": {
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj"
+            },
+            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
+              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
             }
           }
         }

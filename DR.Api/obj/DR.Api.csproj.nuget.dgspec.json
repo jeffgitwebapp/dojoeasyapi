@@ -36,8 +36,8 @@
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
               },
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj"
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj"
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj"
@@ -374,12 +374,12 @@
         }
       }
     },
-    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj": {
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj",
-        "projectName": "DR.Infra.InjecaoDependecia",
-        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependecia.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj",
+        "projectName": "DR.Infra.InjecaoDependencia",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj",
         "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\obj\\",
         "projectStyle": "PackageReference",
@@ -411,6 +411,9 @@
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj"
               }
             }
           }
@@ -426,7 +429,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.Core": {
               "target": "Package",
@@ -578,6 +581,9 @@
             "projectReferences": {
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
               }
             }
           }

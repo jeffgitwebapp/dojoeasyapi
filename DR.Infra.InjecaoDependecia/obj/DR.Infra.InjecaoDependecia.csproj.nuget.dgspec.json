@@ -321,6 +321,9 @@
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj"
               }
             }
           }
@@ -336,7 +339,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.Core": {
               "target": "Package",
@@ -444,6 +447,69 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.35, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj",
+        "projectName": "DR.ModeloVisaoModelo",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\DR.ModeloVisaoModelo.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.ModeloVisaoModelo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj"
+              },
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
