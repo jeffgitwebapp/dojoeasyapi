@@ -186,7 +186,15 @@
           }
         }
       },
+      "DR.Dominio.Entidades/1.0.0": {
+        "runtime": {
+          "DR.Dominio.Entidades.dll": {}
+        }
+      },
       "DR.Dominio.Repositorios/1.0.0": {
+        "dependencies": {
+          "DR.Dominio.Entidades": "1.0.0"
+        },
         "runtime": {
           "DR.Dominio.Repositorios.dll": {}
         }
@@ -282,6 +290,11 @@
       "sha512": "sha512-aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
       "path": "system.text.encoding.codepages/4.7.0",
       "hashPath": "system.text.encoding.codepages.4.7.0.nupkg.sha512"
+    },
+    "DR.Dominio.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DR.Dominio.Repositorios/1.0.0": {
       "type": "project",

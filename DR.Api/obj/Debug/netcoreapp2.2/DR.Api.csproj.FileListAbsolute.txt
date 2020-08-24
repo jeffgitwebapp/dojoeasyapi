@@ -3,6 +3,7 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Api.
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Api.runtimeconfig.dev.json
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Api.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Api.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Dominio.ServicosAplicacao.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Infra.BD.dll
@@ -14,6 +15,7 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Domi
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Infra.Comum.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.ModeloVisaoModelo.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Infra.BD.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.pdb

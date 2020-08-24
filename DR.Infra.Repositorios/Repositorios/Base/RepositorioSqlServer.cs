@@ -24,6 +24,15 @@ namespace DR.Infra.Repositorios.Repositorios.Base
             _sqlServeClient = clientDataBase.ObterConexao();
         }
 
+        public override void DesativarCliente()
+        {
+            if (_sqlServeClient.State == System.Data.ConnectionState.Open)
+            {
+                _sqlServeClient.Close();
+                _sqlServeClient.Dispose();
+            }
+        }
+
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
 

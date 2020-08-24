@@ -14,7 +14,15 @@
           "DR.Dominio.ServicosAplicacao.dll": {}
         }
       },
+      "DR.Dominio.Entidades/1.0.0": {
+        "runtime": {
+          "DR.Dominio.Entidades.dll": {}
+        }
+      },
       "DR.Dominio.Repositorios/1.0.0": {
+        "dependencies": {
+          "DR.Dominio.Entidades": "1.0.0"
+        },
         "runtime": {
           "DR.Dominio.Repositorios.dll": {}
         }
@@ -23,6 +31,11 @@
   },
   "libraries": {
     "DR.Dominio.ServicosAplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DR.Dominio.Entidades/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

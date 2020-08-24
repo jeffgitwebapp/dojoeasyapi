@@ -1,6 +1,7 @@
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.deps.json
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.ServicosAplicacao.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.BD.dll
@@ -10,6 +11,7 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\n
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.BD.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Comum.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Infra.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\obj\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.csprojAssemblyReference.cache
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.InjecaoDependecia\obj\Debug\netcoreapp2.2\DR.Infra.InjecaoDependecia.csproj.CoreCompileInputs.cache

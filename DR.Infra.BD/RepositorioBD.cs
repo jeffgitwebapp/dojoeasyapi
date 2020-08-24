@@ -9,5 +9,7 @@ namespace DR.Infra.BD.Fabrica.ClienteBD
         protected IDbConnection _sqlServeClient { get; set; }
 
         public abstract void AtivarCliente();
+
+        public abstract void DesativarCliente();
     }
 }

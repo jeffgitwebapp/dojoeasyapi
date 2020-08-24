@@ -55,15 +55,21 @@
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -418,6 +424,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Core": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -444,7 +454,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
@@ -521,6 +531,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -561,7 +575,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.Entidades\\DR.Dominio.Entidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -573,6 +591,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

@@ -10,5 +10,10 @@ namespace DR.Dominio.Entidades.Entidades
         public Endereco Endereco { get; private set; }
         public int Idade { get; private set; }
         public decimal Saldo { get; private set; }
+
+        public void AtribuirEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
     }
 }

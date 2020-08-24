@@ -1,8 +1,10 @@
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Infra.BD.deps.json
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Infra.BD.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Infra.BD.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Dominio.Repositorios.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\bin\Debug\netcoreapp2.2\DR.Dominio.Entidades.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\obj\Debug\netcoreapp2.2\DR.Infra.BD.csprojAssemblyReference.cache
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\obj\Debug\netcoreapp2.2\DR.Infra.BD.csproj.CoreCompileInputs.cache
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.BD\obj\Debug\netcoreapp2.2\DR.Infra.BD.AssemblyInfoInputs.cache
