@@ -18,7 +18,7 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.ProdutosDisponiveis
 
         public IEnumerable<Produto> Obter()
         {
-            throw new NotImplementedException();
+            return _repositorioProdutosDisponiveis.Obter();
         }
     }
 }

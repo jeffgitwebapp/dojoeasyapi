@@ -1,0 +1,9 @@
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\bin\Debug\netcoreapp2.2\DR.Infra.Comum.deps.json
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\bin\Debug\netcoreapp2.2\DR.Infra.Comum.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\bin\Debug\netcoreapp2.2\DR.Infra.Comum.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.csprojAssemblyReference.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.csproj.CoreCompileInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.AssemblyInfoInputs.cache
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.AssemblyInfo.cs
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Infra.Comum\obj\Debug\netcoreapp2.2\DR.Infra.Comum.pdb

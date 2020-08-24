@@ -36,7 +36,7 @@ namespace DR.Infra.Repositorios.Repositorios.ClientesCadastrados
                           on c.Id = e.ClienteID";
 
 
-                var result = _sqlServeClient.Query<Cliente, Endereco, Cliente>(query,
+                var result = _clienteSQL.Query<Cliente, Endereco, Cliente>(query,
                         (cliente, endereco) =>
                         {
                             cliente.AtribuirEndereco(endereco);

@@ -6,7 +6,7 @@ namespace DR.Infra.BD.Fabrica.ClienteBD
     {
         protected FabricaClienteBD _fabricaClienteBD { get; set; }
 
-        protected IDbConnection _sqlServeClient { get; set; }
+        protected IDbConnection _clienteSQL { get; set; }
 
         public abstract void AtivarCliente();
 

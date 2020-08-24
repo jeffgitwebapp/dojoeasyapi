@@ -21,15 +21,15 @@ namespace DR.Infra.Repositorios.Repositorios.Base
 
             var clientDataBase = this._fabricaClienteBD.ObterClienteSqlServerBD(_stringConexao);
 
-            _sqlServeClient = clientDataBase.ObterConexao();
+            _clienteSQL = clientDataBase.ObterConexao();
         }
 
         public override void DesativarCliente()
         {
-            if (_sqlServeClient.State == System.Data.ConnectionState.Open)
+            if (_clienteSQL.State == System.Data.ConnectionState.Open)
             {
-                _sqlServeClient.Close();
-                _sqlServeClient.Dispose();
+                _clienteSQL.Close();
+                _clienteSQL.Dispose();
             }
         }
 
