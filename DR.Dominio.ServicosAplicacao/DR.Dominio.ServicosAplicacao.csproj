@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Contratos\NewFolder\**" />
+    <EmbeddedResource Remove="Contratos\NewFolder\**" />
+    <None Remove="Contratos\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DR.Dominio.Repositorios\DR.Dominio.Repositorios.csproj" />
   </ItemGroup>
 

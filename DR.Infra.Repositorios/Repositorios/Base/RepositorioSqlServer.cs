@@ -22,6 +22,8 @@ namespace DR.Infra.Repositorios.Repositorios.Base
             var clientDataBase = this._fabricaClienteBD.ObterClienteSqlServerBD(_stringConexao);
 
             _clienteSQL = clientDataBase.ObterConexao();
+
+            _clienteSQL.Open();
         }
 
         public override void DesativarCliente()

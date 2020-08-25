@@ -33,8 +33,6 @@ namespace DR.Infra.BD.Fabrica.ClienteBD
                     sqlConnection = new SqlConnection(stringConexao);
                 }
 
-                sqlConnection.Open();
-
                 return sqlConnection;
             }
             catch (Exception ex)

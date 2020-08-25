@@ -4,6 +4,7 @@ using DR.Infra.BD.Repositorios.Identificacao;
 using DR.Infra.Comum.JWTConfig;
 using DR.Infra.InjecaoDependencia.IOCExtesions;
 using DR.ModeloVisaoModelo.ClientesCadastrados;
+using DR.ModeloVisaoModelo.CriarOrdemCompra;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +29,7 @@ namespace DR.Infra.InjecaoDependencia
             service.AddServicosAplicacao<ServicoAplicacaoUsuario>();
             service.AddClienteBD<ClienteBDSqlServer>();
             service.AddVisaoModelo<MapClientesCadastrados>();
+            service.AddProcessamentoVisaoModelo<CriarOrdemCompraVisaoModelo>();
         }
 
         public static void ConfigurarComponentesSeguranca(IServiceCollection service, IConfiguration configuration)

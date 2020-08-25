@@ -5,6 +5,16 @@ namespace DR.Dominio.Entidades.Entidades
 {
     public class Cliente
     {
+        public Cliente()
+        {
+
+        }
+
+        public Cliente(Guid clienteId)
+        {
+            this.Id = clienteId;
+        }
+
         public Guid Id { get; private set; }
         public string Nome { get; private set; }
         public Endereco Endereco { get; private set; }
