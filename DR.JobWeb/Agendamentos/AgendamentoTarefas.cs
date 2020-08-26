@@ -14,7 +14,9 @@ namespace DR.JobWeb.Agendamentos
         {
             var processamentoOrdemCompra = InjetorDependencia.ObterServicos<IProcesssaOrdemCompraSolicitada>();
 
-            RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), Cron.Minutely());
+            RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), Cron.MinuteInterval(1));
+
+            ////RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), "45 9 * * * ");
         }
     }
 }

@@ -30,7 +30,7 @@ namespace DR.JobWeb
 
             var configConexao = InjetorDependencia.ObterServicos<ConfiguracaoConexao>();
 
-            services.AddHangfire(x => x.UseSqlServerStorage(configConexao.conexao));
+            services.AddHangfire(x => x.UseSqlServerStorage(configConexao.conexaoHangFire));
 
             services.AddHangfireServer();
         }

@@ -40,7 +40,7 @@ namespace DR.Infra.Repositorios.Repositorios.CriarOrdemCompra
                                                        ,@ProdutoID
                                                        ,@Status)";
 
-                var ordem = new
+                var @ordem = new
                 {
                     novaOrdemCompra.Id,
                     novaOrdemCompra.DataOperacao,
@@ -52,7 +52,7 @@ namespace DR.Infra.Repositorios.Repositorios.CriarOrdemCompra
                     Status = novaOrdemCompra.Status.ToString()
                 };
 
-                var result = _clienteSQL.Execute(comando, ordem);
+                var result = _clienteSQL.Execute(comando, @ordem);
 
             }
             catch (Exception ex)

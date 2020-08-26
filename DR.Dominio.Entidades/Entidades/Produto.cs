@@ -26,5 +26,13 @@ namespace DR.Dominio.Entidades.Entidades
         {
             return Estoque >= quantidadeSolicitada;
         }
+
+        public void AtualizarEstoque(int quantidadeSolicitada)
+        {
+            if (ExisteEstoque(quantidadeSolicitada))
+            {
+                Estoque = Estoque - quantidadeSolicitada;
+            } 
+        }
     }
 }

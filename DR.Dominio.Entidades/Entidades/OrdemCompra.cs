@@ -39,5 +39,21 @@ namespace DR.Dominio.Entidades.Entidades
                 QuantidadeSolicitada = quantidadeSolicitada
             };
         }
+
+        public void CancelarOrdem()
+        {
+            if (Status != OrdemCompraStatus.Fechado)
+            {
+                Status = OrdemCompraStatus.Cancelado;
+            }
+        }
+
+        public void Fechar()
+        {
+            if (Status != OrdemCompraStatus.Cancelado)
+            {
+                Status = OrdemCompraStatus.Fechado;
+            }
+        }
     }
 }
