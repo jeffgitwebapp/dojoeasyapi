@@ -13,4 +13,8 @@
     <ProjectReference Include="..\DR.Dominio.ServicosAplicacao\DR.Dominio.ServicosAplicacao.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Processametos\" />
+  </ItemGroup>
+
 </Project>

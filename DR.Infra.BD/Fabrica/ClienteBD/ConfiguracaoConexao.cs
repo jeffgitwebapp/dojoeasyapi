@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DR.Infra.BD.Fabrica.ClienteBD
+﻿namespace DR.Infra.BD.Fabrica.ClienteBD
 {
     public class ConfiguracaoConexao
     {

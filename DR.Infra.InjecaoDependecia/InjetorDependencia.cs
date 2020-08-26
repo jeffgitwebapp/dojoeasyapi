@@ -77,11 +77,11 @@ namespace DR.Infra.InjecaoDependencia
             _service = service.BuildServiceProvider();
         }
 
-        private static void RegistrarChavesAppSettings(IServiceCollection service, IConfiguration configuratio)
+        private static void RegistrarChavesAppSettings(IServiceCollection service, IConfiguration configuration)
         {
             _configuracaoConexao = new ConfiguracaoConexao();
 
-            var conexaoConfig = configuratio.GetSection(ConfiguracaoConexao);
+            var conexaoConfig = configuration.GetSection(ConfiguracaoConexao);
 
             new ConfigureFromConfigurationOptions<ConfiguracaoConexao>(conexaoConfig).Configure(_configuracaoConexao);
 
@@ -89,7 +89,7 @@ namespace DR.Infra.InjecaoDependencia
 
             _configuracaoToken = new ConfiguracaoToken();
 
-            var configuracaoToken = configuratio.GetSection(ConfiguracaoToken);
+            var configuracaoToken = configuration.GetSection(ConfiguracaoToken);
 
             new ConfigureFromConfigurationOptions<ConfiguracaoToken>(configuracaoToken).Configure(_configuracaoToken);
 
