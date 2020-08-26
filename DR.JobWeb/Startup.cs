@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Globalization;
+using System.Threading;
 
 namespace DR.JobWeb
 {
@@ -19,9 +21,18 @@ namespace DR.JobWeb
 
         public IConfiguration Configuration { get; }
 
+        private const string TIMEZONE = "WEBSITE_TIME_ZONE";
+
+        private const string CRONCODE = "CRON_CONFIGURE_JOB";
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt-BR");
+
             InjetorDependencia.RegistrarServicos(services);
 
             InjetorDependencia.ConfigurarComponentesSeguranca(services, Configuration);
@@ -54,7 +65,11 @@ namespace DR.JobWeb
             app.UseHttpsRedirection();
             app.UseMvc();
 
-            AgendamentoTarefas.Agendar();
+            var timeZone = Configuration.GetSection(TIMEZONE)?.Value;
+
+            var cronCode = Configuration.GetSection(CRONCODE)?.Value;
+
+            AgendamentoTarefas.Agendar(timeZone, cronCode);
         }
     }
 }

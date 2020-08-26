@@ -2304,6 +2304,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "AutoMapper": "10.0.0",
           "DR.Dominio.Repositorios": "1.0.0",
           "DR.Infra.BD": "1.0.0",
           "Dapper": "2.0.35"

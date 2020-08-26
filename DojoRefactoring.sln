@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.ModeloVisaoModelo", "DR.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - JobWeb", "2.2 - JobWeb", "{9466EA26-864E-47BA-9355-AD7411B9C153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DR.JobWeb", "DR.JobWeb\DR.JobWeb.csproj", "{6ADCCD55-EFB3-4B50-8E54-2698052EF76D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.JobWeb", "DR.JobWeb\DR.JobWeb.csproj", "{6ADCCD55-EFB3-4B50-8E54-2698052EF76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

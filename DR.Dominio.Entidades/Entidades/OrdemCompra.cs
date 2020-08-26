@@ -7,7 +7,7 @@ namespace DR.Dominio.Entidades.Entidades
     public class OrdemCompra
     {
         public Guid Id { get; private set; }
-        public DateTime DataOperacao { get; private set; }
+        public DateTimeOffset DataOperacao { get; private set; }
         public Produto Produto { get; private set; }
         public Cliente Cliente { get; private set; }
         public int QuantidadeSolicitada { get; private set; }
@@ -32,7 +32,7 @@ namespace DR.Dominio.Entidades.Entidades
             return new OrdemCompra()
             {
                 Id = Guid.NewGuid(),
-                DataOperacao = DateTime.Now,
+                DataOperacao = DateTimeOffset.UtcNow.Date,
                 Status = OrdemCompraStatus.Solicitado,
                 Produto = new Produto(produtoId),
                 Cliente = new Cliente(clienteId),
@@ -48,7 +48,7 @@ namespace DR.Dominio.Entidades.Entidades
             }
         }
 
-        public void Fechar()
+        public void FecharOrdem()
         {
             if (Status != OrdemCompraStatus.Cancelado)
             {

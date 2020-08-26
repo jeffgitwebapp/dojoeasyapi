@@ -30,9 +30,7 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.CriarOrdemCompra
         {
             try
             {
-                var produto = ObterProdutoInformadoNaOrdem(novaOrdemCompra);
-
-                novaOrdemCompra.AtribuirProduto(produto);
+                CarregarProdutoInformadoNaOrdem(novaOrdemCompra);
 
                 var cliente = ObterClienteInformadoNaOrdem(novaOrdemCompra);
 
@@ -48,7 +46,7 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.CriarOrdemCompra
         }
 
 
-        private Produto ObterProdutoInformadoNaOrdem(OrdemCompra novaOrdemCompra)
+        private void CarregarProdutoInformadoNaOrdem(OrdemCompra novaOrdemCompra)
         {
             var produto = _repositorioObterProdutosPorId.Obter(novaOrdemCompra.Produto.Id);
 
@@ -56,15 +54,20 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.CriarOrdemCompra
             {
                 if (!produto.ExisteEstoque(novaOrdemCompra.QuantidadeSolicitada))
                 {
-                    throw new Exception("O produto informado não disponível em estoque");
+                    throw new Exception("O produto informado não disponível para compra");
+                }
+
+                novaOrdemCompra.AtribuirProduto(produto);
+
+                if (!produto.CompraPossuiValorMinimo(novaOrdemCompra.ValorOperacao))
+                {
+                    throw new Exception("O produto informado não disponível");
                 }
             }
             else
             {
                 throw new Exception("O produto informado não encontrado");
             }
-
-            return produto;
         }
 
         private Cliente ObterClienteInformadoNaOrdem(OrdemCompra novaOrdemCompra)

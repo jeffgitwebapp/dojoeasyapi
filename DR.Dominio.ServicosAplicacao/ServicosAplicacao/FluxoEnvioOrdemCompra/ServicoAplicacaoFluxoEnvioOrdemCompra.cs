@@ -52,9 +52,9 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.FluxoEnvioOrdemCompra
                 {
                     var produtoOrdem = produtosDisponiveis.Where(p => p.Id == ordem.Produto.Id && p.Estoque > 0).FirstOrDefault();
 
-                    if (produtoOrdem == null || !produtoOrdem.ExisteEstoque(ordem.QuantidadeSolicitada))
+                    if (produtoOrdem == null || !produtoOrdem.ExisteEstoque(ordem.QuantidadeSolicitada) || !produtoOrdem.CompraPossuiValorMinimo(ordem.ValorOperacao))
                     {
-                        ExecutarCancelamentoOrdemProdutoIndisponivel(ordem);
+                        ExecutarCancelamentoOrdem(ordem);
                     }
                     else
                     {
@@ -62,8 +62,6 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.FluxoEnvioOrdemCompra
                     }
                 }
             }
-
-
         }
 
         private void ProcessarEnvioOrdem(OrdemCompra ordem, Produto produtoOrdem)
@@ -74,12 +72,12 @@ namespace DR.Dominio.ServicosAplicacao.ServicosAplicacao.FluxoEnvioOrdemCompra
 
             _repositorioAtualizarEstoqueProduto.AtualizarEstoque(produtoOrdem);
 
-            ordem.Fechar();
+            ordem.FecharOrdem();
 
             _repositorioAtualizarStatusOrdem.AtualizarStatus(ordem);
         }
 
-        private void ExecutarCancelamentoOrdemProdutoIndisponivel(OrdemCompra ordem)
+        private void ExecutarCancelamentoOrdem(OrdemCompra ordem)
         {
             ordem.CancelarOrdem();
 

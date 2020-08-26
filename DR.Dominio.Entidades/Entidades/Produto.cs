@@ -27,6 +27,11 @@ namespace DR.Dominio.Entidades.Entidades
             return Estoque >= quantidadeSolicitada;
         }
 
+        public bool CompraPossuiValorMinimo(decimal valor)
+        {
+            return valor >= ValorMinimoDeCompra;
+        }
+
         public void AtualizarEstoque(int quantidadeSolicitada)
         {
             if (ExisteEstoque(quantidadeSolicitada))

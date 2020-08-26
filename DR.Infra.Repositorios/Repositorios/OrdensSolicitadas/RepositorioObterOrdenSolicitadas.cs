@@ -4,6 +4,7 @@ using DR.Dominio.Entidades.Enums;
 using DR.Dominio.Repositorios.Contratos.OrdensSolicitadas;
 using DR.Infra.BD.Fabrica.ClienteBD;
 using DR.Infra.Repositorios.Repositorios.Base;
+using DR.Infra.Repositorios.Repositorios.OrdensSolicitadas.ResultadoConsultaDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,14 +37,23 @@ namespace DR.Infra.Repositorios.Repositorios.OrdensSolicitadas
                               FROM [dbo].[OrdemCompra]
                           where Status = status";
 
-                var result = _clienteSQL.Query<OrdemCompra>(query, param);
+                var result = _clienteSQL.Query<OrdemSolicitadaDTO>(query, param).ToList();
 
-                return result.ToList();
+                List<OrdemCompra> ordens = new List<OrdemCompra>();
+
+                if (result.Count > 0)
+                {
+                    foreach (var ordem in result)
+                    {
+                        ordens.Add(ordem.MapearOrdemDominio());
+                    }
+                }
+
+                return ordens;
 
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
             finally

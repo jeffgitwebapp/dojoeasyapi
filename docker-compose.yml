@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dr.api:
+    image: ${DOCKER_REGISTRY-}drapi
+    build:
+      context: .
+      dockerfile: DR.Api/Dockerfile

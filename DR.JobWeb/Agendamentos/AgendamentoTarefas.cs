@@ -10,13 +10,13 @@ namespace DR.JobWeb.Agendamentos
 {
     public static class AgendamentoTarefas
     {
-        public static void Agendar()
+        public static void Agendar(string timeZone, string cronCode)
         {
             var processamentoOrdemCompra = InjetorDependencia.ObterServicos<IProcesssaOrdemCompraSolicitada>();
 
-            RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), Cron.MinuteInterval(1));
+            TimeZoneInfo southZone = TimeZoneInfo.FindSystemTimeZoneById(timeZone);
 
-            ////RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), "45 9 * * * ");
+            RecurringJob.AddOrUpdate(() => processamentoOrdemCompra.Processar(), cronCode, southZone);
         }
     }
 }

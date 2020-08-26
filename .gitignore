@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/DojoRefactoring/v16/Server/sqlite3
+**/bin
+**/obj
+bin/
+obj/
+Debug/
+Release/
