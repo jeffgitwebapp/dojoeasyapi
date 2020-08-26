@@ -23,9 +23,8 @@ namespace DR.Api.Controllers
             _mapVisaoModelo = visaoModelo;
         }
 
-
-        [AllowAnonymous]
         [HttpGet]
+        [Authorize("Bearer")]
         [Route("todos")]
         public IActionResult Get()
         {

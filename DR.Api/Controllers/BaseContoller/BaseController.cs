@@ -31,7 +31,7 @@ namespace DR.Api.Controllers.BaseContoller
 
                 DateTime dataCriacao = DateTime.Now;
                 DateTime dataExpiracao = dataCriacao +
-                    TimeSpan.FromSeconds(tokenConfigurations.Seconds);
+                    TimeSpan.FromMinutes(tokenConfigurations.Seconds);
 
                 var handler = new JwtSecurityTokenHandler();
 

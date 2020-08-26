@@ -22,8 +22,8 @@ namespace DR.Api.Controllers
             _mapVisaoModelo = visaoModelo;
         }
 
-        [AllowAnonymous]
         [HttpGet]
+        [Authorize("Bearer")]
         [Route("disponiveis")]
         public IActionResult Get()
         {

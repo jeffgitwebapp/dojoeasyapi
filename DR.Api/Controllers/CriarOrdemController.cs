@@ -21,8 +21,8 @@ namespace DR.Api.Controllers
             _criarOrdemCompraVisaoModelo = criarOrdemCompraVisaoModelo;
         }
 
-        [AllowAnonymous]
         [HttpPost]
+        [Authorize("Bearer")]
         [Route("criar")]
         public IActionResult Post([FromBody] VisaoModeloCriarOrdemCompra visaoModeloCriarOrdemCompra)
         {
