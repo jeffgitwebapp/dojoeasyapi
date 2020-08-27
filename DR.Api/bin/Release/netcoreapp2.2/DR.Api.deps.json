@@ -25,8 +25,8 @@
       "DR.Api/1.0.0": {
         "dependencies": {
           "DR.Dominio.ServicosAplicacao": "1.0.0",
-          "DR.Infra.Comum": "1.0.0",
           "DR.Infra.InjecaoDependencia": "1.0.0",
+          "DR.Infra.Seguranca": "1.0.0",
           "DR.ModeloVisaoModelo": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
@@ -729,24 +729,13 @@
           "DR.Infra.BD.dll": {}
         }
       },
-      "DR.Infra.Comum/1.0.0": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "6.7.1"
-        },
-        "runtime": {
-          "DR.Infra.Comum.dll": {}
-        },
-        "compile": {
-          "DR.Infra.Comum.dll": {}
-        }
-      },
       "DR.Infra.InjecaoDependencia/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
           "DR.Dominio.ServicosAplicacao": "1.0.0",
           "DR.Infra.BD": "1.0.0",
-          "DR.Infra.Comum": "1.0.0",
           "DR.Infra.Repositorios": "1.0.0",
+          "DR.Infra.Seguranca": "1.0.0",
           "DR.ModeloVisaoModelo": "1.0.0",
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
@@ -769,6 +758,7 @@
       },
       "DR.Infra.Repositorios/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.0.0",
           "DR.Dominio.Repositorios": "1.0.0",
           "DR.Infra.BD": "1.0.0",
           "Dapper": "2.0.35"
@@ -778,6 +768,17 @@
         },
         "compile": {
           "DR.Infra.Repositorios.dll": {}
+        }
+      },
+      "DR.Infra.Seguranca/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.7.1"
+        },
+        "runtime": {
+          "DR.Infra.Seguranca.dll": {}
+        },
+        "compile": {
+          "DR.Infra.Seguranca.dll": {}
         }
       },
       "DR.ModeloVisaoModelo/1.0.0": {
@@ -4092,17 +4093,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DR.Infra.Comum/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "DR.Infra.InjecaoDependencia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "DR.Infra.Repositorios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DR.Infra.Seguranca/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

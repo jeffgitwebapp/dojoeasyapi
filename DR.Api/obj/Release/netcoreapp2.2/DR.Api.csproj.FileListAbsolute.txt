@@ -7,12 +7,10 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Do
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Dominio.Repositorios.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Dominio.ServicosAplicacao.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.BD.dll
-C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.Comum.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.InjecaoDependencia.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.Repositorios.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.ModeloVisaoModelo.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Dominio.ServicosAplicacao.pdb
-C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.Comum.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.InjecaoDependencia.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.ModeloVisaoModelo.pdb
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Dominio.Entidades.pdb
@@ -29,3 +27,5 @@ C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\obj\Release\netcoreapp2.2\DR.Ap
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\obj\Release\netcoreapp2.2\DR.Api.csproj.CopyComplete
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\obj\Release\netcoreapp2.2\DR.Api.dll
 C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\obj\Release\netcoreapp2.2\DR.Api.pdb
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.Seguranca.dll
+C:\Users\DEV\source\repos\DojoRefactoring\DR.Api\bin\Release\netcoreapp2.2\DR.Infra.Seguranca.pdb
