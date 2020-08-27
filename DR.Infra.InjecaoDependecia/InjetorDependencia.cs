@@ -1,7 +1,7 @@
 ﻿using DR.Dominio.ServicosAplicacao.ServicosAplicacao.Identificacao;
 using DR.Infra.BD.Fabrica.ClienteBD;
 using DR.Infra.BD.Repositorios.Identificacao;
-using DR.Infra.Comum.JWTConfig;
+using DR.Infra.Seguranca.JWTConfig;
 using DR.Infra.InjecaoDependencia.IOCExtesions;
 using DR.ModeloVisaoModelo.ClientesCadastrados;
 using DR.ModeloVisaoModelo.CriarOrdemCompra;
@@ -34,7 +34,7 @@ namespace DR.Infra.InjecaoDependencia
 
         public static void ConfigurarComponentesSeguranca(IServiceCollection service, IConfiguration configuration)
         {
-            var seguranca = new Seguranca();
+            var seguranca = new SegurancaJWT();
 
             service.AddSingleton(seguranca);
 

@@ -33,8 +33,8 @@
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
               },
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj"
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.InjecaoDependecia\\DR.Infra.InjecaoDependencia.csproj"
@@ -322,12 +322,12 @@
         }
       }
     },
-    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
+    "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj",
-        "projectName": "DR.Infra.Comum",
-        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj",
+        "projectName": "DR.Infra.Seguranca",
+        "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj",
         "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\obj\\",
         "projectStyle": "PackageReference",
@@ -410,8 +410,8 @@
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
               },
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
+              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj": {
+                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj"
               },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj"

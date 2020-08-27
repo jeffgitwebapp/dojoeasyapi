@@ -2287,19 +2287,6 @@
           "bin/placeholder/DR.Infra.BD.dll": {}
         }
       },
-      "DR.Infra.Comum/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "6.7.1"
-        },
-        "compile": {
-          "bin/placeholder/DR.Infra.Comum.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DR.Infra.Comum.dll": {}
-        }
-      },
       "DR.Infra.Repositorios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -2314,6 +2301,19 @@
         },
         "runtime": {
           "bin/placeholder/DR.Infra.Repositorios.dll": {}
+        }
+      },
+      "DR.Infra.Seguranca/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.7.1"
+        },
+        "compile": {
+          "bin/placeholder/DR.Infra.Seguranca.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DR.Infra.Seguranca.dll": {}
         }
       },
       "DR.ModeloVisaoModelo/1.0.0": {
@@ -7679,15 +7679,15 @@
       "path": "../DR.Infra.BD/DR.Infra.BD.csproj",
       "msbuildProject": "../DR.Infra.BD/DR.Infra.BD.csproj"
     },
-    "DR.Infra.Comum/1.0.0": {
-      "type": "project",
-      "path": "../DR.Infra.Comum/DR.Infra.Comum.csproj",
-      "msbuildProject": "../DR.Infra.Comum/DR.Infra.Comum.csproj"
-    },
     "DR.Infra.Repositorios/1.0.0": {
       "type": "project",
       "path": "../DR.Infra.Repositorios/DR.Infra.Repositorios.csproj",
       "msbuildProject": "../DR.Infra.Repositorios/DR.Infra.Repositorios.csproj"
+    },
+    "DR.Infra.Seguranca/1.0.0": {
+      "type": "project",
+      "path": "../DR.Infra.Comum/DR.Infra.Seguranca.csproj",
+      "msbuildProject": "../DR.Infra.Comum/DR.Infra.Seguranca.csproj"
     },
     "DR.ModeloVisaoModelo/1.0.0": {
       "type": "project",
@@ -7700,8 +7700,8 @@
       "AutoMapper >= 10.0.0",
       "DR.Dominio.ServicosAplicacao >= 1.0.0",
       "DR.Infra.BD >= 1.0.0",
-      "DR.Infra.Comum >= 1.0.0",
       "DR.Infra.Repositorios >= 1.0.0",
+      "DR.Infra.Seguranca >= 1.0.0",
       "DR.ModeloVisaoModelo >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Core >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 2.2.0",
@@ -7753,8 +7753,8 @@
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.BD\\DR.Infra.BD.csproj"
             },
-            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj": {
-              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Comum.csproj"
+            "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj": {
+              "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj"
             },
             "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj": {
               "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Repositorios\\DR.Infra.Repositorios.csproj"

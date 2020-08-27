@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.Dominio.Repositorios", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.Dominio.ServicosAplicacao", "DR.Dominio.ServicosAplicacao\DR.Dominio.ServicosAplicacao.csproj", "{E000D15A-3BB0-4063-A6FC-E8324D1874CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.Infra.Comum", "DR.Infra.Comum\DR.Infra.Comum.csproj", "{47EC6446-F9C0-4EC9-B941-01D9B385453F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.Infra.Seguranca", "DR.Infra.Comum\DR.Infra.Seguranca.csproj", "{47EC6446-F9C0-4EC9-B941-01D9B385453F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DR.Infra.InjecaoDependencia", "DR.Infra.InjecaoDependecia\DR.Infra.InjecaoDependencia.csproj", "{AF8FFD58-C7A5-4EB9-9B69-AC186B6AD843}"
 EndProject

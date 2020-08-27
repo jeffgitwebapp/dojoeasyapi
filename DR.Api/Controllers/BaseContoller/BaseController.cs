@@ -1,4 +1,4 @@
-﻿using DR.Infra.Comum.JWTConfig;
+﻿using DR.Infra.Seguranca.JWTConfig;
 using DR.ModeloVisaoModelo.Identificacao;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -15,7 +15,7 @@ namespace DR.Api.Controllers.BaseContoller
     public class BaseController: ControllerBase
     {
         protected object GetToken([FromBody] VisaoModeloUsuario usuario,
-                         [FromServices]Seguranca signingConfigurations,
+                         [FromServices]SegurancaJWT signingConfigurations,
                         [FromServices]ConfiguracaoToken tokenConfigurations)
         {
             try

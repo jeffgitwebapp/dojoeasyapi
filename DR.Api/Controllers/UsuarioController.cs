@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DR.Api.Controllers.BaseContoller;
 using DR.Dominio.ServicosAplicacao.Contratos.Identificacao;
-using DR.Infra.Comum.JWTConfig;
+using DR.Infra.Seguranca.JWTConfig;
 using DR.ModeloVisaoModelo.Identificacao;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -27,7 +27,7 @@ namespace DR.Api.Controllers
         [HttpPost]
         [Route("login")]
         public IActionResult Post([FromBody] VisaoModeloUsuario usuario,
-         [FromServices]Seguranca signingConfigurations,
+         [FromServices]SegurancaJWT signingConfigurations,
         [FromServices]ConfiguracaoToken tokenConfigurations)
         {
             try

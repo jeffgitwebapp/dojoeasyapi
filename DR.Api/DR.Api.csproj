@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DR.Dominio.ServicosAplicacao\DR.Dominio.ServicosAplicacao.csproj" />
-    <ProjectReference Include="..\DR.Infra.Comum\DR.Infra.Comum.csproj" />
+    <ProjectReference Include="..\DR.Infra.Comum\DR.Infra.Seguranca.csproj" />
     <ProjectReference Include="..\DR.Infra.InjecaoDependecia\DR.Infra.InjecaoDependencia.csproj" />
     <ProjectReference Include="..\DR.ModeloVisaoModelo\DR.ModeloVisaoModelo.csproj" />
   </ItemGroup>

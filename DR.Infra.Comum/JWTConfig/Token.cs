@@ -1,4 +1,4 @@
-﻿namespace DR.Infra.Comum.JWTConfig
+﻿namespace DR.Infra.Seguranca.JWTConfig
 {
     public class Token
     {
