@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AutorizadorResultado\**" />
+    <EmbeddedResource Remove="AutorizadorResultado\**" />
+    <None Remove="AutorizadorResultado\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
   </ItemGroup>
 

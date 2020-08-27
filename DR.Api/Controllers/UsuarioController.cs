@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DR.Api.Controllers.BaseContoller;
-using DR.Dominio.ServicosAplicacao.Contratos.Identificacao;
 using DR.Infra.Seguranca.JWTConfig;
 using DR.ModeloVisaoModelo.Identificacao;
 using Microsoft.AspNetCore.Authorization;
@@ -16,11 +15,11 @@ namespace DR.Api.Controllers
     [ApiController]
     public class UsuarioController : BaseController
     {
-        private readonly IServicoAplicacaoUsuario _servicoAplicacaoUsuario;
+        private readonly IAutorizarUsuarioVisaoModelo _autorizarUsuarioVisaoModelo;
 
-        public UsuarioController(IServicoAplicacaoUsuario servicoAplicacaoUsuario)
+        public UsuarioController(IAutorizarUsuarioVisaoModelo autorizarUsuarioVisaoModelo)
         {
-            _servicoAplicacaoUsuario = servicoAplicacaoUsuario;
+            _autorizarUsuarioVisaoModelo = autorizarUsuarioVisaoModelo;
         }
 
         [AllowAnonymous]
@@ -32,7 +31,7 @@ namespace DR.Api.Controllers
         {
             try
             {
-                _servicoAplicacaoUsuario.ValidarUsuarioAutorizado(usuario.Login, usuario.Senha);
+                _autorizarUsuarioVisaoModelo.ValidarUsuarioAutorizado(usuario.Login, usuario.Senha);
 
                 return Ok(GetToken(usuario, signingConfigurations, tokenConfigurations));
             }

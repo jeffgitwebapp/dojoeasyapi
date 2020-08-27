@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DR.Api.Controllers.BaseContoller;
-using DR.Dominio.ServicosAplicacao.Contratos.ClientesCadastrados;
 using DR.ModeloVisaoModelo;
 using DR.ModeloVisaoModelo.ClientesCadastrados;
 using Microsoft.AspNetCore.Authorization;

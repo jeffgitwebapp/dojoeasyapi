@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DR.ModeloVisaoModelo.ProdutosDisponiveis
 {
-   public class VisaoModeloProdutosDisponiveis
+    public class VisaoModeloProdutosDisponiveis
     {
         public Guid Id { get; set; }
         public string Codigo { get; set; }
@@ -18,9 +18,9 @@ namespace DR.ModeloVisaoModelo.ProdutosDisponiveis
             var config = new MapperConfiguration(cfg =>
               cfg.CreateMap<Produto, VisaoModeloProdutosDisponiveis>()
              .ForMember(dest => dest.Id, m => m.MapFrom(origem => origem.Id))
-             .ForMember(dest => dest.Codigo, m => m.MapFrom(origem => origem.Codigo))
+             .ForMember(dest => dest.Codigo, m => m.MapFrom(origem => $"{origem.Codigo} - {origem.Descricao}"))
              .ForMember(dest => dest.PrecoUnitario, m => m.MapFrom(origem => origem.PrecoUnitario))
-             .ForMember(dest => dest.QuantidadeDisponivel, m => m.MapFrom(origem => origem.Estoque))             );
+             .ForMember(dest => dest.QuantidadeDisponivel, m => m.MapFrom(origem => origem.Estoque)));
 
             var mapper = new Mapper(config);
 

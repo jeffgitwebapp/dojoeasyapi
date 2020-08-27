@@ -30,9 +30,6 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj": {
-                "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Dominio.ServicosAplicacao\\DR.Dominio.ServicosAplicacao.csproj"
-              },
               "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj": {
                 "projectPath": "C:\\Users\\DEV\\source\\repos\\DojoRefactoring\\DR.Infra.Comum\\DR.Infra.Seguranca.csproj"
               },
