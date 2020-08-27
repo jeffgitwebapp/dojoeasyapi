@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Threading;
 
+/////[assembly: OwinStartup(typeof(MyWebApplication.Startup))]
+
 namespace DR.JobWeb
 {
     public class Startup
@@ -57,13 +59,16 @@ namespace DR.JobWeb
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
-            }
-
-            app.UseHangfireServer();
-            app.UseHangfireDashboard();
+            }  
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseHangfireServer();
+            app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            {
+                Authorization = new[] { new AutorizacaoDashBoard() }
+            });
 
             var timeZone = Configuration.GetSection(TIMEZONE)?.Value;
 

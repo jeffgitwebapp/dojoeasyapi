@@ -515,6 +515,10 @@
               "target": "Package",
               "version": "[1.7.12, )"
             },
+            "Microsoft.AspNet.WebApi.Owin": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
