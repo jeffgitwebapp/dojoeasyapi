@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v2.2": {
       "DR.Api/1.0.0": {
         "dependencies": {
-          "DR.Dominio.ServicosAplicacao": "1.0.0",
           "DR.Infra.InjecaoDependencia": "1.0.0",
           "DR.Infra.Seguranca": "1.0.0",
           "DR.ModeloVisaoModelo": "1.0.0",
